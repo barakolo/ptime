@@ -1,4 +1,4 @@
-### ptime / Simple Python Profiler for the masses by Barak Sternberg ###
+## ptime / Simple Python Profiler for the masses by Barak Sternberg ##
 
 Simple python profiler, getting the most time consuming functions easily.
 
@@ -6,8 +6,8 @@ prerequisites: to draw the results(using barh graph) - one will need numpy, matp
 
 Usage:
 
-*** Method 1 - profile imported modules: ***
-# Use the following code to inspect x, y modules:
+### Method 1 - profile imported modules: ###
+* Use the following code to inspect x, y modules:
 ```python
 import x
 import y
@@ -17,7 +17,7 @@ gen_wrappers(verbose=True, related_modules=['x', 'y'])
 gen_tgraph()
 ```
 
-*** Method 2 - profile code of current file: ***
+### Method 2 - profile code of current file: ###
 ```python
 # profile f1, f2, f3 functions.
 import math
