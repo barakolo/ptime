@@ -2,9 +2,9 @@
 
 Simple python profiler, getting the most time consuming functions easily.
 
-prerequisites: to draw the results(using barh graph) - one will need numpy, matplotlib installed.
+Prerequisites: to draw the results(using barh graph) - one will need numpy, matplotlib installed.
 
-Usage:
+## Usage: ##
 
 ### Method 1 - profile imported modules: ###
 * Use the following code to inspect x, y modules:
