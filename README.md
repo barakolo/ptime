@@ -1,20 +1,24 @@
 ### ptime / Simple Python Profiler for the masses by Barak Sternberg ###
-Simple python profiler, to get the most time consuming functions.
 
-* to draw the time consuming functions in scale (using barh graph) - one will need numpy, matplotlib installed.
+Simple python profiler, getting the most time consuming functions easily.
+
+prerequisites: to draw the results(using barh graph) - one will need numpy, matplotlib installed.
 
 Usage:
 
 *** Method 1 - profile imported modules: ***
 # Use the following code to inspect x, y modules:
+```python
 import x
 import y
 execfile('ptime.py')
 gen_wrappers(verbose=True, related_modules=['x', 'y'])
 ### YOUR CODE HERE ###
 gen_tgraph()
+```
 
 *** Method 2 - profile code of current file: ***
+```python
 # profile f1, f2, f3 functions.
 import math
 import random
@@ -42,7 +46,7 @@ for i in xrange(100):
     a[int(len(a) * random.random())](i)
 
 gen_tgraph()
-
+```
 
 
 
